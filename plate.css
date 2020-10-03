@@ -1,0 +1,81 @@
+*{
+    border: 0;padding: 0;margin: 0;text-decoration: none;text-decoration-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    font-size: 62.5%;
+}
+.flex{
+    display: flex;justify-content: center;align-items: center;
+}
+.flex-end{
+    display: flex;justify-content: flex-end;align-items: center;
+}
+.flex-start{
+    display: flex;justify-content: flex-start;align-items: center;
+}
+.flex-col{
+    display: flex;justify-content: center;align-items: center;flex-flow: column;
+}
+.flex-col-end{
+    display: flex;justify-content: flex-end;align-items: center;flex-flow: column;
+}
+.flex-col-start{
+    display: flex;justify-content: flex-start;align-items: center;flex-flow: column;
+}
+/* FONT SIZE AND WEIGHT*/
+.f1{
+    font-size: 1rem;
+}
+.f2{
+    font-size: 2rem;
+}
+.f3{
+    font-size: 3rem;
+}
+.f4{
+    font-size: 4rem;
+}
+.f5{
+    font-size: 5rem;
+}
+.f6{
+    font-size: 6rem;
+}
+.fb{
+    font-weight: bolder;
+}
+.fbb{
+    font-weight: 900;
+}
+.fl{
+    font-weight: lighter;
+}
+.fll{
+    font-weight: 100;
+}
+
+/* BACKGROUND AND FOREGROUND COLORS */
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.white{
+    color: white;
+}
+.bg-dark{
+    background-color: black;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-smoke{
+    background-color: whitesmoke;
+}
+.bg-gray{
+    background-color: lightgray;
+}
